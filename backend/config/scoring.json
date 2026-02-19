@@ -1,0 +1,18 @@
+{
+  "llm_pipeline": {
+    "enabled": true,
+    "model": "gpt-5-mini",
+    "max_jobs_per_run": 300,
+    "drop_invalid": true,
+    "per_job_timeout_sec": 75,
+    "progress_every": 10,
+    "parallel_workers_initial": 24,
+    "parallel_workers_min": 8,
+    "parallel_workers_max": 100,
+    "parallel_round_multiplier": 2,
+    "description_max_chars": 10000,
+    "model_input_description_max_chars": 80000,
+    "no_description_truncation": false,
+    "prompt_version": "v5"
+  }
+}

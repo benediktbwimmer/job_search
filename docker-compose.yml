@@ -1,0 +1,30 @@
+services:
+  api:
+    build: .
+    container_name: job-search-api
+    ports:
+      - "8787:8787"
+    volumes:
+      - ./backend/config:/app/backend/config
+      - ./backend/data:/app/backend/data
+      - ./backend/output:/app/backend/output
+      - ./backend/db:/app/backend/db
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python3", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8787/health', timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  ops:
+    build: .
+    container_name: job-search-ops
+    depends_on:
+      - api
+    volumes:
+      - ./backend/config:/app/backend/config
+      - ./backend/data:/app/backend/data
+      - ./backend/output:/app/backend/output
+      - ./backend/db:/app/backend/db
+    command: ["python3", "backend/scripts/ops_scheduler.py", "--interval-hours", "24", "--weekly-interval-hours", "168"]
+    restart: unless-stopped

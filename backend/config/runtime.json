@@ -1,0 +1,19 @@
+{
+  "source_fetch": {
+    "max_retries": 1,
+    "backoff_seconds": 0.5
+  },
+  "source_health": {
+    "enabled": true,
+    "window_runs": 12,
+    "stale_after_hours": 72,
+    "degraded_score_threshold": 25,
+    "min_events_for_skip": 4
+  },
+  "operations": {
+    "alerts": {
+      "enabled": true,
+      "failure_webhook_url": ""
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "name": "Benedikt Wimmer",
+  "location": "Innsbruck, Tyrol, Austria",
+  "contact": {
+    "email": "benedikt.b.wimmer@gmail.com",
+    "phone": "+43 67764447573"
+  },
+  "profiles": {
+    "github": "https://github.com/benediktbwimmer"
+  },
+  "headline": "Senior / Lead Full-Stack Software Engineer & System Architect",
+  "years_experience": 10,
+  "summary": "Senior full-stack engineer and system architect with 10+ years of experience across frontend, backend, data platforms, cloud infrastructure, and technical leadership. Strong focus on scalable design, performance optimization, and reliable delivery.",
+  "target_titles": [
+    "Senior Software Engineer",
+    "Lead Software Engineer",
+    "Staff Software Engineer",
+    "Principal Software Engineer",
+    "System Architect",
+    "Platform Engineer",
+    "Staff Platform Engineer",
+    "Backend Engineer",
+    "Full-Stack Engineer",
+    "Software Architect",
+    "Developer Advocate (Platform Engineering)"
+  ],
+  "must_have_any": [],
+  "local_first": true,
+  "skills": [
+    "python",
+    "typescript",
+    "javascript",
+    "go",
+    "java",
+    "c",
+    "c++",
+    "c#",
+    "rust",
+    "react",
+    "angular",
+    "d3.js",
+    "html",
+    "css",
+    "django",
+    "fastapi",
+    "spring boot",
+    "fastify",
+    "express",
+    "postgresql",
+    "mysql",
+    "sqlite",
+    "duckdb",
+    "clickhouse",
+    "gcp",
+    "aws",
+    "docker",
+    "docker-compose",
+    "kubernetes",
+    "terraform",
+    "temporal",
+    "temporal.io",
+    "dagster",
+    "kafka",
+    "airflow",
+    "react native",
+    "graphql",
+    "rpc",
+    "rest api",
+    "git",
+    "microservices",
+    "system design"
+  ],
+  "preferred_keywords": [
+    "distributed systems",
+    "microservices",
+    "platform",
+    "platform engineering",
+    "system architecture",
+    "data pipeline",
+    "workflow orchestration",
+    "cloud",
+    "devops",
+    "scalability",
+    "performance",
+    "observability",
+    "reliability",
+    "hybrid cloud"
+  ],
+  "experience_highlights": [
+    {
+      "company": "Luftblick OG",
+      "role": "Lead Software Engineer",
+      "period": "2018-02 to 2024-02",
+      "summary": "Led architecture and implementation of frontend/backend systems for pandonia-global-network.org and related data platforms.",
+      "impact": "Owned end-to-end delivery from system design to operations, including team leadership and mentoring of engineers and data scientists.",
+      "technologies": [
+        "temporal",
+        "dagster",
+        "python",
+        "django",
+        "fastapi",
+        "react",
+        "d3.js",
+        "duckdb",
+        "postgresql",
+        "gcp",
+        "docker"
+      ],
+      "keywords": [
+        "workflow orchestration",
+        "distributed systems",
+        "data pipelines",
+        "hybrid cloud",
+        "platform engineering"
+      ]
+    },
+    {
+      "company": "Luftblick OG",
+      "role": "Freelance Software Engineer",
+      "period": "2024-03 to 2025-04",
+      "summary": "Built distributed cloud processing flows for spectrometer measurement data and implemented Temporal-based orchestration.",
+      "impact": "Delivered scalable on-demand processing with a custom DuckDB warehouse for analytical and operational workflows.",
+      "technologies": [
+        "temporal",
+        "duckdb",
+        "python",
+        "go",
+        "cloud",
+        "data warehouse"
+      ],
+      "keywords": [
+        "spectrometer data processing",
+        "on-demand scalability",
+        "workflow orchestration",
+        "data platform"
+      ]
+    },
+    {
+      "company": "Mohemian Services GmbH (SBB Park+Rail)",
+      "role": "Software Engineer",
+      "period": "2025-05 to 2025-11",
+      "summary": "Delivered production-critical full-stack capabilities for Swiss Federal Railways' digital Park+Rail platform.",
+      "impact": "Improved maintainability, stability, and release velocity in a production environment.",
+      "technologies": [
+        "java",
+        "spring boot",
+        "angular"
+      ],
+      "keywords": [
+        "production systems",
+        "full-stack delivery",
+        "public transport domain",
+        "reliability"
+      ]
+    },
+    {
+      "company": "Ferchau / Innio Jenbacher",
+      "role": "Freelance Software Engineer",
+      "period": "2024-03 to 2025-04",
+      "summary": "Led frontend execution for a gas turbine HMI program.",
+      "impact": "Delivered production-facing UI capabilities for an industrial control context.",
+      "technologies": [
+        "typescript",
+        "javascript",
+        "frontend"
+      ],
+      "keywords": [
+        "hmi",
+        "industrial software",
+        "frontend leadership"
+      ]
+    },
+    {
+      "company": "PREA Holding GmbH",
+      "role": "Frontend Developer",
+      "period": "2016-01 to 2017-02",
+      "summary": "Built and shipped client-facing web products in close collaboration with design.",
+      "impact": "Delivered production-ready interfaces with fast iteration cycles.",
+      "technologies": [
+        "react",
+        "angular",
+        "html",
+        "css",
+        "javascript"
+      ],
+      "keywords": [
+        "frontend development",
+        "ui delivery",
+        "product web"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "BSc Computer Science",
+      "institution": "University of Innsbruck",
+      "location": "Innsbruck, Austria",
+      "period": "2012-09 to 2016-05"
+    }
+  ],
+  "location_keywords": [
+    "innsbruck",
+    "tyrol",
+    "tirol",
+    "austria",
+    "osterreich",
+    "oesterreich"
+  ],
+  "remote_keywords": [
+    "remote",
+    "fully remote",
+    "work from anywhere",
+    "distributed team",
+    "eu remote",
+    "europe remote"
+  ],
+  "exclude_keywords": [
+    "intern",
+    "internship",
+    "junior",
+    "working student",
+    "werkstudent"
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "enabled": true,
+  "url": "sqlite:///data/job_search.sqlite",
+  "auto_migrate": true
+}

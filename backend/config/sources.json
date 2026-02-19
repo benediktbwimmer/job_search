@@ -1,0 +1,136 @@
+{
+  "rss_sources": [
+    {
+      "name": "RemoteOK Dev",
+      "url": "https://remoteok.com/remote-dev-jobs.rss",
+      "type": "remote"
+    },
+    {
+      "name": "WeWorkRemotely Programming",
+      "url": "https://weworkremotely.com/categories/remote-programming-jobs.rss",
+      "type": "remote"
+    },
+    {
+      "name": "Jobicy Software Development",
+      "url": "https://jobicy.com/?feed=job_feed&job_categories=software-development",
+      "type": "remote"
+    }
+  ],
+  "html_sources": [
+    {
+      "name": "Karriere.at Innsbruck Software Engineer",
+      "url": "https://www.karriere.at/jobs/software-engineer/innsbruck",
+      "type": "innsbruck"
+    },
+    {
+      "name": "Karriere.at Tirol Engineer",
+      "url": "https://www.karriere.at/jobs/engineer/tirol",
+      "type": "tirol"
+    },
+    {
+      "name": "Karriere.at Austria Software Engineer",
+      "url": "https://www.karriere.at/jobs/software-engineer",
+      "type": "austria"
+    }
+  ],
+  "stepstone_sources": [
+    {
+      "name": "StepStone Innsbruck Software Engineer",
+      "url": "https://www.stepstone.at/jobs/software-engineer/in-innsbruck",
+      "type": "innsbruck",
+      "pages": 2,
+      "enabled": true,
+      "fetch_strategy": {
+        "listing_backends": [
+          "http",
+          "curl_cffi",
+          "playwright_cli",
+          "openclaw_snapshot"
+        ],
+        "detail_backends": [
+          "curl_cffi",
+          "playwright_cli",
+          "http",
+          "openclaw_snapshot"
+        ],
+        "detail_enrich": true,
+        "detail_min_chars": 220,
+        "detail_max_jobs": 60,
+        "detail_delay_min_ms": 600,
+        "detail_delay_max_ms": 1500,
+        "timeout_sec": 40
+      }
+    }
+  ],
+  "indeed_sources": [
+    {
+      "name": "Indeed Austria Software Engineer",
+      "url": "https://at.indeed.com/jobs?q=software+engineer&l=Austria&fromage=14&sort=date",
+      "type": "austria",
+      "pages": 1,
+      "enabled": true,
+      "fetch_strategy": {
+        "listing_backends": [
+          "playwright_cli"
+        ],
+        "detail_backends": [
+          "playwright_cli"
+        ],
+        "detail_enrich": true,
+        "detail_min_chars": 700,
+        "detail_max_jobs": 12,
+        "detail_delay_min_ms": 150,
+        "detail_delay_max_ms": 450,
+        "timeout_sec": 45
+      }
+    },
+    {
+      "name": "Indeed Innsbruck Software Engineer",
+      "url": "https://at.indeed.com/jobs?q=software+engineer&l=Innsbruck&fromage=14&sort=date",
+      "type": "innsbruck",
+      "pages": 1,
+      "enabled": true,
+      "fetch_strategy": {
+        "listing_backends": [
+          "playwright_cli"
+        ],
+        "detail_backends": [
+          "playwright_cli"
+        ],
+        "detail_enrich": true,
+        "detail_min_chars": 700,
+        "detail_max_jobs": 12,
+        "detail_delay_min_ms": 150,
+        "detail_delay_max_ms": 450,
+        "timeout_sec": 45
+      }
+    }
+  ],
+  "browser_sources": [
+    {
+      "name": "StepStone Legacy Browser (disabled)",
+      "url": "https://www.stepstone.at/jobs/software-engineer/in-innsbruck",
+      "type": "innsbruck",
+      "pages": 1,
+      "enabled": false
+    }
+  ],
+  "greenhouse_sources": [
+    {
+      "name": "Example Greenhouse Board",
+      "board": "example",
+      "company_name": "Example",
+      "type": "remote",
+      "enabled": false
+    }
+  ],
+  "lever_sources": [
+    {
+      "name": "Example Lever Board",
+      "company": "example",
+      "company_name": "Example",
+      "type": "remote",
+      "enabled": false
+    }
+  ]
+}

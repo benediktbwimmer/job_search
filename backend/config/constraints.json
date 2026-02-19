@@ -1,0 +1,26 @@
+{
+  "require_remote_or_target_location": true,
+  "prefer_local_strong": true,
+  "target_location_keywords": ["innsbruck", "tyrol", "tirol", "austria", "österreich"],
+  "preferred_remote_regions": ["europe", "eu", "cet", "cest", "germany", "austria", "dach"],
+  "disallowed_remote_markers": [
+    "us only",
+    "usa only",
+    "united states only",
+    "canada only",
+    "uk only",
+    "must be based in us",
+    "must reside in us"
+  ],
+  "exclude_if_contains": [
+    "security clearance",
+    "on-site only",
+    "onsite only"
+  ],
+  "company_watchlist": {
+    "enabled": true,
+    "companies": ["openai", "anthropic"],
+    "domains": ["openai.com", "anthropic.com"],
+    "score_boost": 12
+  }
+}

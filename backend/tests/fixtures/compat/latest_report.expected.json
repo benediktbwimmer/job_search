@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-01-03T12:00:00+00:00",
+  "total": 2,
+  "tiers": {
+    "A": 0,
+    "B": 1,
+    "C": 1
+  },
+  "skipped_applied": 0,
+  "llm": {
+    "enabled": false,
+    "model": null,
+    "scored_live": 0,
+    "cache_hits": 0,
+    "failed": 0
+  },
+  "top": [
+    {
+      "id": "Fixture RSS:job-2",
+      "source": "Fixture RSS",
+      "source_type": "remote",
+      "title": "Software Engineer (Innsbruck)",
+      "company": "",
+      "location": "Innsbruck",
+      "remote_hint": false,
+      "url": "https://jobs.example.com/2",
+      "description": "Onsite in Innsbruck. Platform and cloud engineering with Python.",
+      "published": "Mon, 01 Jan 2026 11:00:00 +0000",
+      "fetched_at": "2026-01-03T12:00:00+00:00",
+      "score": 55,
+      "tier": "B",
+      "reasons": [
+        "target location",
+        "skills (1)",
+        "domain fit",
+        "target geography",
+        "local non-senior accepted",
+        "local-first role floor"
+      ],
+      "skill_hits": [
+        "python"
+      ]
+    },
+    {
+      "id": "Fixture RSS:job-1",
+      "source": "Fixture RSS",
+      "source_type": "remote",
+      "title": "Senior Platform Engineer at Alpine Systems",
+      "company": "Alpine Systems",
+      "location": "Europe, Remote",
+      "remote_hint": true,
+      "url": "https://jobs.example.com/1",
+      "description": "Remote in Europe. Distributed systems. Kubernetes. Python. Cloud platform work.",
+      "published": "Mon, 01 Jan 2026 10:00:00 +0000",
+      "fetched_at": "2026-01-03T12:00:00+00:00",
+      "score": 48,
+      "tier": "C",
+      "reasons": [
+        "remote",
+        "seniority match",
+        "target role",
+        "skills (2)",
+        "domain fit",
+        "remote fit",
+        "timezone/region fit"
+      ],
+      "skill_hits": [
+        "python",
+        "kubernetes"
+      ]
+    }
+  ],
+  "errors": []
+}

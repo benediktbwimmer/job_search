@@ -1,0 +1,13 @@
+{
+  "name": "job-search-backend-tools",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "playwright:install": "playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.58.2"
+  }
+}
+
